@@ -12,6 +12,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { RouterModule } from '@angular/router';
+import { ClientesComponent } from './admin/clientes/clientes.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { RouterModule } from '@angular/router';
     HomeComponent,
     NosotrosComponent,
     PageNotFoundComponent,
+    ClientesComponent,
   ],
   imports: [
     BrowserModule,
